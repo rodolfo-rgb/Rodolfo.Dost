@@ -59,6 +59,11 @@ return {
       end,
     },
   },
+  { -- Plugin for the Oldworld color scheme
+    "dgox16/oldworld.nvim",
+    lazy = false, -- Load this plugin immediately
+    priority = 1000, -- High priority to ensure it loads early
+  },
   {
     "xiyaowong/transparent.nvim",
   },
